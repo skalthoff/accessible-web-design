@@ -25,3 +25,11 @@ export const Text = styled.p`
   line-height: 1.6;
   font-size: 1.1rem;
 `;
+
+export const List = styled.ul`
+  margin-left: 1.5rem;
+`;
+
+export const ListItem = styled.li`
+  margin-bottom: 0.5rem;
+`;

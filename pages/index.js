@@ -3,38 +3,10 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 import Layout from '../components/Layout';
+import { PageContent, Title, Subtitle, Text, List, ListItem} from '../components/styledComponents';
 
-const HomePageContent = styled.div`
-  padding: 1rem;
-  max-width: 900px;
-  margin: auto;
-`;
 
-const Title = styled.h1`
-  text-align: center;
-  color: #333;
-  font-size: 2.5rem;
-`;
 
-const Subtitle = styled.h2`
-  color: #666;
-  font-size: 2rem;
-  margin-top: 2rem;
-`;
-
-const Text = styled.p`
-  color: #333;
-  line-height: 1.6;
-  font-size: 1.1rem;
-`;
-
-const List = styled.ul`
-  margin-left: 1.5rem;
-`;
-
-const ListItem = styled.li`
-  margin-bottom: 0.5rem;
-`;
 
 const StartButton = styled.a`
   display: inline-block;
@@ -55,7 +27,7 @@ const StartButton = styled.a`
 function HomePage() {
   return (
     <Layout>
-      <HomePageContent>
+      <PageContent>
         <Title>Welcome to Accessible Web Design!</Title>
         <Text>Welcome to our website dedicated to teaching the fundamentals of accessible web design. Whether you're a beginner just starting out or a seasoned developer looking to improve your websites, you're in the right place.</Text>
         <Subtitle>What is Accessible Web Design?</Subtitle>
@@ -73,7 +45,7 @@ function HomePage() {
         <Link href="/first-lesson" passHref>
           <StartButton>Start Learning Now</StartButton>
         </Link>
-      </HomePageContent>
+      </PageContent>
     </Layout>
   );
 }
