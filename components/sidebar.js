@@ -13,7 +13,7 @@ const Sidebar = () => {
             <a>Home</a>
           </Link>
         </MenuItem>
-        <SubMenu title="Fundamentals of Accessible Web Design" icon={<FaRegLaughWink />}>
+        <SubMenu title="Fundamentals" icon={<FaRegLaughWink />}>
           <MenuItem>
             <Link href="/introduction-to-accessibility">
               <a>Introduction to Accessibility</a>
@@ -27,6 +27,13 @@ const Sidebar = () => {
           <MenuItem>
             <Link href="/accessibility-guidelines-wcag">
               <a>Accessibility Guidelines (WCAG)</a>
+            </Link>
+          </MenuItem>
+        </SubMenu>
+        <SubMenu title="About" icon={FaGithub}>
+          <MenuItem>
+            <Link href="https://github.com/skalthoff/accessible-web-design">
+              <a>GitHub</a>
             </Link>
           </MenuItem>
         </SubMenu>
