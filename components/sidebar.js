@@ -24,6 +24,11 @@ const Sidebar = () => {
               <a>Principles of Accessible Design</a>
             </Link>
           </MenuItem>
+          <MenuItem>
+            <Link href="/accessibility-guidelines-wcag">
+              <a>Accessibility Guidelines (WCAG)</a>
+            </Link>
+          </MenuItem>
         </SubMenu>
       </Menu>
     </ProSidebar>
