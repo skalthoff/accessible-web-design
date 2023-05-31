@@ -1,31 +1,7 @@
 // pages/introduction-to-accessibility.js
 
-import styled from 'styled-components';
 import Layout from '../components/Layout';
-
-const PageContent = styled.div`
-  padding: 1rem;
-  max-width: 900px;
-  margin: auto;
-`;
-
-const Title = styled.h1`
-  text-align: center;
-  color: #333;
-  font-size: 2.5rem;
-`;
-
-const Subtitle = styled.h2`
-  color: #666;
-  font-size: 2rem;
-  margin-top: 2rem;
-`;
-
-const Text = styled.p`
-  color: #333;
-  line-height: 1.6;
-  font-size: 1.1rem;
-`;
+import { PageContent, Title, Subtitle, Text } from '../components/styledComponents';
 
 function IntroductionToAccessibility() {
   return (
