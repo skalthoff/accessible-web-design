@@ -1,19 +1,19 @@
 // components/Sidebar.js
 
 import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart, FaLightbulb } from 'react-icons/fa';
+import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart, FaLightbulb, FaBook, FaCode, FaInfoCircle, FaHome } from 'react-icons/fa';
 import 'react-pro-sidebar/dist/css/styles.css';
 import Link from 'next/link';
 const Sidebar = () => {
   return (
     <ProSidebar>
       <Menu iconShape="square">
-        <MenuItem icon={<FaGem />}>
+        <MenuItem icon={<FaHome />}>
           <Link href="/">
             Home
           </Link>
         </MenuItem>
-        <SubMenu title="Fundamentals" icon={<FaRegLaughWink />}>
+        <SubMenu title="Fundamentals" icon={<FaBook />}>
           <MenuItem>
             <Link href="/introduction-to-accessibility">
               Introduction to Accessibility
@@ -30,7 +30,29 @@ const Sidebar = () => {
             </Link>
           </MenuItem>
         </SubMenu>
-        <SubMenu title="About" icon={<FaLightbulb />}>
+        <SubMenu title="Guides" icon={<FaCode />}>
+          <MenuItem>
+            <Link href="/navigation">
+              Navigation
+            </Link>
+          </MenuItem>
+          <MenuItem>
+            <Link href="/color">
+              Color and Contrast
+            </Link>
+          </MenuItem>
+          <MenuItem>
+            <Link href="/Forms">
+              Forms
+            </Link>
+          </MenuItem>
+          <MenuItem>
+            <Link href="/images">
+              Images
+            </Link>
+          </MenuItem>
+        </SubMenu>
+        <SubMenu title="About" icon={<FaInfoCircle />}>
           <MenuItem>
             <Link href="https://github.com/skalthoff/accessible-web-design">
               GitHub
