@@ -10,30 +10,30 @@ const Sidebar = () => {
       <Menu iconShape="square">
         <MenuItem icon={<FaGem />}>
           <Link href="/">
-            <a>Home</a>
+            Home
           </Link>
         </MenuItem>
         <SubMenu title="Fundamentals" icon={<FaRegLaughWink />}>
           <MenuItem>
             <Link href="/introduction-to-accessibility">
-              <a>Introduction to Accessibility</a>
+              Introduction to Accessibility
             </Link>
           </MenuItem>
           <MenuItem>
             <Link href="/principles-of-accessible-design">
-              <a>Principles of Accessible Design</a>
+              Principles of Accessible Design
             </Link>
           </MenuItem>
           <MenuItem>
             <Link href="/accessibility-guidelines-wcag">
-              <a>Accessibility Guidelines (WCAG)</a>
+              Accessibility Guidelines (WCAG)
             </Link>
           </MenuItem>
         </SubMenu>
         <SubMenu title="About" icon={<FaLightbulb />}>
           <MenuItem>
             <Link href="https://github.com/skalthoff/accessible-web-design">
-              <a>GitHub</a>
+              GitHub
             </Link>
           </MenuItem>
         </SubMenu>

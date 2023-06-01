@@ -1,6 +1,5 @@
 // pages/index.js
 
-import Link from 'next/link';
 import styled from 'styled-components';
 import Layout from '../components/Layout';
 import { PageContent, Title, Subtitle, Text, List, ListItem} from '../components/styledComponents';
