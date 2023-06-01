@@ -1,7 +1,7 @@
 // components/Sidebar.js
 
 import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart } from 'react-icons/fa';
+import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart, FaLightbulb } from 'react-icons/fa';
 import 'react-pro-sidebar/dist/css/styles.css';
 import Link from 'next/link';
 const Sidebar = () => {
@@ -30,7 +30,7 @@ const Sidebar = () => {
             </Link>
           </MenuItem>
         </SubMenu>
-        <SubMenu title="About" icon={FaGithub}>
+        <SubMenu title="About" icon={<FaLightbulb />}>
           <MenuItem>
             <Link href="https://github.com/skalthoff/accessible-web-design">
               <a>GitHub</a>
