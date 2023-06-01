@@ -40,11 +40,7 @@ function HomePage() {
           <ListItem>Screen Reader Compatibility</ListItem>
           <ListItem>And much more...</ListItem>
         </List>
-        <Subtitle>Ready to Start?</Subtitle>
-        <Text>Are you ready to make the web a more accessible place? Click the button below to get started with your first lesson!</Text>
-        <Link href="/first-lesson" passHref>
-          <StartButton>Start Learning Now</StartButton>
-        </Link>
+        <Text>By the end of this course, you'll have a solid understanding of the fundamentals of accessible web design and how to apply them to your own websites.</Text>
       </PageContent>
     </Layout>
   );
