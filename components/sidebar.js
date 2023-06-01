@@ -1,7 +1,7 @@
 // components/Sidebar.js
 
 import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart, FaLightbulb, FaBook, FaCode, FaInfoCircle, FaHome } from 'react-icons/fa';
+import {FaBook, FaCode, FaInfoCircle, FaHome } from 'react-icons/fa';
 import 'react-pro-sidebar/dist/css/styles.css';
 import Link from 'next/link';
 const Sidebar = () => {
